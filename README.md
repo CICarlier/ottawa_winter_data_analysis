@@ -1,4 +1,11 @@
 # Exploratory Data Analysis of Ottawa winters with Bokeh
 
-Dynamic visualization of winter data since winter 2013-2014. Data visualized includes daily temperature variation, snow falls and snow accumulation. 
+This tutorial was originally built for an assignment for an EDA course in my Masters. I continued working on it and added few visualizations and widgets and I was learning more about this library. I also enjoy exploring weather data so this was a good opportunity to learn and have fun.
+
+### Context
+A few years ago I moved to Eastern Canada. I grew up in Southern France, then studied in Paris so my experience of winter was mostly a wet, cloudy weather with temperatures between rarely below 0 degrees celsius, and very little snow. Canada's National Capital was a very different game: it could snow as early as Halloween, and temperatures below -10 were very common. My first winter there (2013-2014), I was told the winter was going to be longer and colder than usual. I invested in good winter gear, went through it and thought if that was it it was not too bad. The next year, the same thing happened and then every year I kept hearing the same words: "It's going to be the coldest and longest in years.". My actual impression varied a lot: as I discovered myself a passion for winter activities (skating in particular), I could tell some winters were not cold or long enough as the Rideau Canal (world's largest naturally frozen skating rink and second longest was only open sporadically. This year, Remembrance Day (November 11th) set a record for the greatest snowfall in the city, followed by record cold temperatures the same week, and the forecast for the coldest winter started again. I decided to look at weather data to evaluate which of the past six winters were actually harsher and help my friends and coworkers realize they prepare for the worst every winter, but nature may decide otherwise.
+
+Please refer to the [Jupyter Notebook](https://github.com/CICarlier/ottawa_winter_data_analysis/blob/master/Exploratory%20Data%20Analysis%20with%20Bokeh.ipynb) for the full narrative and bokeh tutorial. 
+
+As captured in this screenshot, the visualizations include analysis of daily temperature variations, daily snow falls and snow accumulation.
 ![Ottawa Winters](https://github.com/CICarlier/ottawa_winter_data_analysis/blob/master/Winter_data_2013-2014.png)
