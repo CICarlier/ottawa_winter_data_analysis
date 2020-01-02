@@ -3,21 +3,21 @@ import pandas as pd
 import numpy as np
 
 #import all daily and hourly files
-daily_2013 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2013_P1D.csv")
-daily_2014 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2014_P1D.csv")
-daily_2015 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2015_P1D.csv")
-daily_2016 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2016_P1D.csv")
-daily_2017 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2017_P1D.csv")
-daily_2018 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2018_P1D.csv")
-daily_2019 = pd.read_csv("Ottawa winter weather data/data/en_climate_daily_ON_6105976_2019_P1D.csv")
+daily_2013 = pd.read_csv("data/en_climate_daily_ON_6105976_2013_P1D.csv")
+daily_2014 = pd.read_csv("data/en_climate_daily_ON_6105976_2014_P1D.csv")
+daily_2015 = pd.read_csv("data/en_climate_daily_ON_6105976_2015_P1D.csv")
+daily_2016 = pd.read_csv("data/en_climate_daily_ON_6105976_2016_P1D.csv")
+daily_2017 = pd.read_csv("data/en_climate_daily_ON_6105976_2017_P1D.csv")
+daily_2018 = pd.read_csv("data/en_climate_daily_ON_6105976_2018_P1D.csv")
+daily_2019 = pd.read_csv("data/en_climate_daily_ON_6105976_2019_P1D.csv")
 
-hourly_2013 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2013.csv')
-hourly_2014 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2014.csv')
-hourly_2015 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2015.csv')
-hourly_2016 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2016.csv')
-hourly_2017 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2017.csv')
-hourly_2018 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2018.csv')
-hourly_2019 = pd.read_csv('Ottawa winter weather data/data/hourly_data_2019.csv')
+hourly_2013 = pd.read_csv('data/hourly_data_2013.csv')
+hourly_2014 = pd.read_csv('data/hourly_data_2014.csv')
+hourly_2015 = pd.read_csv('data/hourly_data_2015.csv')
+hourly_2016 = pd.read_csv('data/hourly_data_2016.csv')
+hourly_2017 = pd.read_csv('data/hourly_data_2017.csv')
+hourly_2018 = pd.read_csv('data/hourly_data_2018.csv')
+hourly_2019 = pd.read_csv('data/hourly_data_2019.csv')
 
 
 # To compare winters, we first need to combine the months of October, November, December of one year
