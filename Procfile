@@ -1,1 +1,1 @@
-web: bokeh serve --show make_visualization.py
+web: bokeh serve --port $PORT --show make_visualization.py
